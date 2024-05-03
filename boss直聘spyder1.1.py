@@ -223,7 +223,7 @@ def single_zone_craw(zn):
                 # 尝试5次后,若仍然无法爬取,则跳过该区域
                 if try_times == 5:
                     print('爬取失败,该区域将被跳过,当前网址是:',driver.current_url)
-                    input('press any key to continue')
+                    #input('press any key to continue')
                     i = 11    #跳出大循环
                     break
         if i >10:
